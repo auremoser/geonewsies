@@ -7,6 +7,8 @@
 <html>
 <head>
 	<title>Relevantly</title>
+	<link rel="stylesheet" href="libs/normalize.css">
+  <link rel="stylesheet" href="libs/foundation.min.css">
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="https://raw.githubusercontent.com/internews-ke/hiv-30/master/Timeline/assets/internews-favicon.ico" >
 	<style>
@@ -19,39 +21,99 @@
 		html, body, h1,h2,h4,h6,li,a {
 			font-family: "Proxima Nova",Helvetica,Ariel,sans-serif	!important;
 		}
-		.header-cont {
-    		width:100%;
-    		position:fixed;
-    		top:10px;
-		}
-		.header {
-		    height:50px;
-		    background:#9B59B6;
-		    border:1px solid #CCC;
-		    width:960px;
-		    margin:0px auto;
-		    padding-left:10px;
-		    padding-bottom:20px;
-		}
-		#timeline {
-			float:left;
-			width:50%;
-			height:400px;
-			border:#666;
-			padding-top:30px;
-		}
 	</style>
 </head>
 <body>
-	<div class="header-cont">search bar</div>
-	<div class="header-cont header">
-		<h1>DENMARK</h1>
-	</div>
-	<hr>
-	<div id="timeline">
-		<a class="twitter-timeline" href="https://twitter.com/search?q=denmark+lang%3Aen" data-widget-id="462378354415378432">Tweets about "denmark lang:en"</a>
+		<!--Header + Nav -->
+			<div class="row">
+		    	<div class="large-12 columns">
+		    	  <div class="panel">
+		    	    <h1>Relevantly - UK</h1>
+		    	  </div>
+		    	</div>
+		  </div>
+		<!-- End Header and Nav -->
+		<!-- Nav Sidebar -->
+    <!-- Pulls to the left on larger screens -->
+    <div class="large-2 columns ">
+      <div class="panel">
+          <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
+          <section class="section">
+            <h5 class="title"><a href="#">Mainstream</a></h5>
+          </section>
+          <section class="section">
+            <h5 class="title"><a href="#">Socialstream</a></h5>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Main Feed -->
+    <!-- This has been source ordered to come first in the markup -->
+    <div class="large-6 columns">
+ 
+      <!-- News Feed Entry -->
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
+        <div class="large-10 columns">
+          <p><strong>Some Person said:</strong> BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
+          <ul class="inline-list">
+            <li><a href="">Reply</a></li>
+            <li><a href="">Share</a></li>
+          </ul>
+ 
+ 
+          <h6>2 Comments</h6>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p></div>
+          </div>
+          <div class="row">
+            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
+            <div class="large-10 columns"><p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Feed Entry -->
+ 
+      <hr />
+ 
+      <!-- News Feed Entry -->
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
+        <div class="large-10 columns">
+          <p><strong>Some Person said:</strong> BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
+          <ul class="inline-list">
+            <li><a href="">Reply</a></li>
+            <li><a href="">Share</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-		<script type="text/javascript" src="js/script.js"></script>
-	</div>
+    <!-- Twitter Feed Sidebar -->
+    <!-- Hidden on small devices -  -->
+    <aside class="large-4 columns hide-for-small">
+      <p><a class="twitter-timeline" href="https://twitter.com/search?q=denmark+lang%3Aen" data-widget-id="462378354415378432">Tweets about "denmark lang:en"</a>
+    	<script type="text/javascript" src="js/script.js"></script></p>
+    </aside>
+ 
+  	<!-- Footer -->
+  	<footer class="row">
+  	  <div class="large-12 columns">
+  	    <hr />
+  	    <div class="row">
+  	      <div class="large-5 columns">
+  	        <p>© CCopyright. Go to town.</p>
+  	      </div>
+  	      <div class="large-7 columns">
+  	        <ul class="inline-list right">
+  	          <li><a href="#">Mainstream</a></li>
+  	          <li><a href="#">Feed</a></li>
+	
+  	        </ul>
+  	      </div>
+  	    </div>
+  	  </div>
+  	</footer>
 </body>
 </html>
