@@ -7,16 +7,16 @@
 ------
 
 ####Team Members
-* Christian Lindharth
-* Guiller Robles
-* David Andersen
-* Aurelia Moser
-* Ditte Maria Bergstrøm
+* Christian Lindharth - christianln@mail.dmjx.dk
+* Guiller Robles - guilleponfe@gmail.com
+* David Andersen - davidmandersen@gmail.com, @davidandersenme
+* Aurelia Moser -  auremoser@gmail.com, @auremoser
+* Ditte Maria Bergstrøm - @dittebergstrom 
 
 ####Demo Links
 1. [Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)  
 2. [Presentation here](http://auremoser.github.io/geonewsies/)
-2. Webapp test here  
+2. [Webapp test here](http://auremoser.github.io/geonewsies/)  
 3. Download the Android App here
   
 ------ 
