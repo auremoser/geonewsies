@@ -7,7 +7,7 @@ $(document).ready(function() {
         url: "http://content.guardianapis.com/uk-news?show-fields=productionOffice&show-editors-picks=true&show-most-viewed=true&date-id=date%2Flast24hours&api-key=mediahackdays2014",
         success: function(json) {
             console.log(json);
-            //unwrap the json object, they have a response object. DUMB!
+            //unwrap the json object, have a response object. DUMB!
             var data  = json.response,
                 posts = [];
             //if our data has editorsPicks, add that to our posts:
