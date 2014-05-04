@@ -1,119 +1,49 @@
-<!-- MEDIA HACK DAYS
-* Aarhus, DR
-* a-team
-* 
- -->
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Relevantly</title>
-	<link rel="stylesheet" href="libs/normalize.css">
-  <link rel="stylesheet" href="libs/foundation.min.css">
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/mhd-hackathon/master/assets/relevantly-favicon.png" >
-	<style>
-		html,body{
-			background-color: #BE90D4;
-			padding-top: 20px;
-			padding-left: 25px;
-			padding-right: 25px;
-		}
-		html, body, h1,h2,h4,h6,li,a {
-			font-family: "Proxima Nova",Helvetica,Ariel,sans-serif	!important;
-		}
-	</style>
-</head>
-<body>
-		<!--Header + Nav -->
-			<div class="row">
-		    	<div class="large-12 columns">
-		    	  <div class="panel">
-		    	    <h1>Relevantly - UK</h1>
-		    	  </div>
-		    	</div>
-		  </div>
-		<!-- End Header and Nav -->
-		<!-- Nav Sidebar -->
-    <!-- Pulls to the left on larger screens -->
-    <div class="large-2 columns ">
-      <div class="panel">
-          <div class="section-container vertical-nav" data-section data-options="deep_linking: false; one_up: true">
-          <section class="section">
-            <h5 class="title"><a href="#">Mainstream</a></h5>
-          </section>
-          <section class="section">
-            <h5 class="title"><a href="#">Socialstream</a></h5>
-          </section>
-        </div>
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widinitial-scale=1.0">
+    <title>GeoNewsies</title>
+<!-- LIBS + JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+<!-- STYLES -->
+    <!-- If you are using CSS version, only link thesfiles, you may add app.css to use for your overriif you like. -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/general_enclosed_foundicons.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="top" class="row"> </div>
+<!-- ESTABLISHED MEDIA COLUMN LEFT -->
+      <div class="large-6 columns">
+          <div class="row background-column">
+              <div class="small-12 columns" id="media">
+                  <h1 class="columnheadlinetext">Established  Media</h1>
+              </div>
+              <div class="row media-container"></div>
+          </div>
       </div>
-    </div>
-    <!-- Main Feed -->
-    <!-- This has been source ordered to come first in the markup -->
+ 
     <div class="large-6 columns">
- 
-      <!-- News Feed Entry -->
-      <div class="row">
-        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
-        <div class="large-10 columns">
-          <p><strong>Some Person said:</strong> BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
- 
- 
-          <h6>2 Comments</h6>
-          <div class="row">
-            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
-            <div class="large-10 columns"><p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p></div>
-          </div>
-          <div class="row">
-            <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]" /></div>
-            <div class="large-10 columns"><p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p></div>
-          </div>
-        </div>
-      </div>
-      <!-- End Feed Entry -->
- 
-      <hr />
- 
-      <!-- News Feed Entry -->
-      <div class="row">
-        <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]" /></div>
-        <div class="large-10 columns">
-          <p><strong>Some Person said:</strong> BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
-          <ul class="inline-list">
-            <li><a href="">Reply</a></li>
-            <li><a href="">Share</a></li>
-          </ul>
-        </div>
-      </div>
+       <div class="row background-column">
+           <div class="small-12 columns" id="media">
+               <h1 class="columnheadlinetext">Social Media</h1>
+           </div>
+           <div class="row social-container"></div>
+       </div>
     </div>
 
-    <!-- Twitter Feed Sidebar -->
-    <!-- Hidden on small devices -  -->
-    <aside class="large-4 columns hide-for-small">
-      <p><a class="twitter-timeline" href="https://twitter.com/search?q=denmark+lang%3Aen" data-widget-id="462378354415378432">Tweets about "denmark lang:en"</a>
-    	<script type="text/javascript" src="js/script.js"></script></p>
-    </aside>
- 
-  	<!-- Footer -->
-  	<footer class="row">
-  	  <div class="large-12 columns">
-  	    <hr />
-  	    <div class="row">
-  	      <div class="large-5 columns">
-  	        <p>© CCopyright. Go to town.</p>
-  	      </div>
-  	      <div class="large-7 columns">
-  	        <ul class="inline-list right">
-  	          <li><a href="#">Mainstream</a></li>
-  	          <li><a href="#">Feed</a></li>
-	
-  	        </ul>
-  	      </div>
-  	    </div>
-  	  </div>
-  	</footer>
-</body>
+<!-- SCRIPTS FOR DATA PULL -->
+    <script src="js/app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
