@@ -49,6 +49,12 @@ This service will give the user a sense of what's going on in the country they v
 ![Newsie definition](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/newsie.png)  
 
 ####Prospects
+Since most travel applications focus on quantitative comparisons between nations (population counts, census information), we're interested in exploring the **qualitative information** that GeoNewsies could give about geopolitical idioms and cross-cultural conversation. We'd like to build out an automated analytics to generate comparison graphs showing the media and social topic traffic in certain countries.
+
+In the future, we'd like like to support additional countries and translations as this is a travel app, fix all existing bugs in the webapp. We'd also like to weld a few different feeds together twitter + other social media, adding additional papers both from the news media hubs and from more local papers. We're interested in supporting locations more granular than country as well.
+
+
+
 
 ####Resources
 All other notes and information via [this hackpad](https://etherpad.mozilla.org/REXLD59BC9).  
