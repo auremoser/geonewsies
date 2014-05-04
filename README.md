@@ -7,7 +7,11 @@
 ------
 
 ####Team Members
-
+* Christian Lindharth
+* Guiller Robles
+* David Andersen
+* Aurelia Moser
+* Ditte Maria Bergstrøm
 
 ####Demo Links
 1. [Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)  
