@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/auremoser/mhd-hackathon/gh-pages/assets/compass-favicon.png">
+    <title>GeoNewsies</title>
+<!-- LIBS + JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.min.js"></script>
+
+<!-- STYLES -->
+    <!-- If you are using CSS version, only link thesfiles, you may add app.css to use for your overriif you like. -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/general_enclosed_foundicons.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<!-- HEADER BAR -->
+    <!-- <div id="top" class="row"></div>  -->
+      <nav id="top" class="row">
+        <div class="large-4 columns">
+          <h1><img src="https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/compass-logo.png" /></h1>
+        </div>
+        <div class="large-8 columns">
+          <ul class="right button-group">
+            <li class="has-form">
+              <div class="row collapse">
+                <div class="large-8 small-9 columns">
+                  <input type="text" placeholder="Search Countries">
+                </div>
+                <div class="large-4 small-3 columns">
+                  <a href="#" class="small button secondary">Search</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+         </div>
+        </nav>
+  
+<!-- ESTABLISHED MEDIA COLUMN LEFT -->
+      <div class="large-6 columns">
+          <div class="row background-column">
+              <div class="small-12 columns" id="media">
+                  <h1 class="columnheadlinetext">Established  Media</h1>
+              </div>
+              <div class="row media-container"></div>
+          </div>
+      </div>
+
+    <!-- Things have changed a bit w/twitter... apparently you cant access any of the api endpoints- like trends- that need authorization with client side code only. Meaning that you would need a backend service to do that for you. For now we use dummy content until we get it to work -->
+ 
+    <div class="large-6 columns">
+       <div class="row background-column">
+          <div class="small-12 columns" id="media">
+              <h1 class="columnheadlinetext">Social Media</h1>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">Panelist: Mr. Emmanuel Lobina, Principal Lecturer, University of Greenwich, United Kingdom #ADBNGOC #AstanaADB<br><br> <span class="metatext"> 3rd of May 2014, @ADBank</span> </h1>
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">Today Germany, United Kingdom, France, Denmark, Italy & Spain (The Big 5) have their first rehearsals #Eurovision #Eurovision2014 #JoinUs <br><br> <span class="metatext"> 3rd of   May 2014, @davidanderseme</span> </h1>
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">#london 🇬🇧 #bigben @ London, United Kingdom instagram.com/p/nkMUx9lTig/<br><br> <span class="metatext"> 3rd of   May 2014, @diuniaJiminez</span> </h1>
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">INDUSTRY AND PARLIAMENT TRUST - information about company from United Kingdom you can found there companieslist.co.uk/01308583-indus…<br><br> <span class="metatext"> 3rd of   May 2014, @dCompaniesList</span> </h1>
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">Job Opportunity -  Cased Hole Field Engineer in Aberdeen, United Kingdom bull.hn/l/1ZG7A/65 #job <br><br> <span class="metatext"> 3rd of   May 2014, @donjstark</span> </h1>
+            </div>
+          </div>
+          <div class="row social-container">
+            <div class="small-offset-1 small-10 columns items">
+              <h1 class="itemheadlinetext">I biked 5.52 mi with @MapMyFitness. Check out my route in Cardiff, United Kingdom! mmf.cc/1rR3PCS #bike #cycling <br><br> <span class="metatext"> 3rd of   May 2014, @EverythinsTaken</span> </h1>
+            </div>
+          </div>
+
+       </div>
+    </div>
+
+<!-- FOOTER -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Share and Enjoy!</p>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+<!-- SCRIPTS FOR DATA PULL -->
+    <script src="js/app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
