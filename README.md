@@ -1,9 +1,8 @@
   ![GeoNewsies icon](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/geonewsies-logo.png)
 
-Geo-based News: whereever you go, whereever you are  
+#####Geo-based News: whereever you go, whereever you are  
 
-Aarhus 2014   
-[Media Hack Days](http://www.mediahackdays.com/)
+####Aarhus 2014    | [Media Hack Days](http://www.mediahackdays.com/)
 
 ------
 

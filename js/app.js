@@ -14,7 +14,7 @@ $(document).ready(function() {
             if(data.editorsPicks && data.editorsPicks.length){
                 posts = posts.concat(data.editorsPicks);
             }
-            //if our data has editorsPicks, add that to our posts:
+            //if our data has mostViewed, add that to our posts:
             if(data.mostViewed && data.mostViewed.length){
                 posts = posts.concat(data.mostViewed);
             }
