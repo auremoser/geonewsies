@@ -35,6 +35,8 @@ We built this because currently, travel-related resources focus on logistics (cu
 
 This service will give the user a sense of what's going on in the country they visit, prior to and throughout a travel experience. It pulls standard news media headlines and dates from the Guardian API relative to a country (Most Viewed and Editor's Picks articles from the last 24hours), and the pulls twitter information from that countries' geolocation. 
 
+![WebView Link]()
+
 ------
 
 ####What's with the name?
