@@ -1,17 +1,17 @@
-GeoNewsies
-==========
-Geo-based News: whereever you go, whereever you are  
-![GeoNewsies icon](http://mouapp.com/Mou_128.png)
+  ![GeoNewsies icon](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/geonewsies-logo.png)
 
-Aarhus 2014 
+Geo-based News: whereever you go, whereever you are  
+
+Aarhus 2014   
 [Media Hack Days](http://www.mediahackdays.com/)
 
+_________
 ####Team Members
 
 
 ####Demo Links
-[Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)
-Webapp test here
+[Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)  
+Webapp test here  
 Download the Android App here
 
 ####Concept
@@ -32,11 +32,12 @@ This service will give the user a sense of what's going on in the country they v
 ###What's with the name?
 **Geo** =   
 
-![Mou icon](http://mouapp.com/Mou_128.png)  
+![Geo Definition](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/geo.png)  
 
 **Newsies** = 
   
-![Mou icon](http://mouapp.com/Mou_128.png)  
+![Newsie definition](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/newsie.png)  
 
+####Resources
 All other notes and information via [this hackpad](https://etherpad.mozilla.org/REXLD59BC9).  
 Check the [mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf).
