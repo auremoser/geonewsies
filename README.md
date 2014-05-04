@@ -10,9 +10,10 @@ _________
 
 
 ####Demo Links
-[Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)  
-Webapp test here  
-Download the Android App here
+1. [Mockups here](https://www.dropbox.com/s/91w7ahvm9rlrlvt/Geonewsi.pdf)  
+2. Presentation here
+2. Webapp test here  
+3. Download the Android App here
 
 ####Concept
 GeoNewsies is an application that aggregates simple and relevant media for a country, on both standard news and social news tracks. It's designed to inform travelers on the current and qualitative media relevant to their country of destination.
@@ -29,7 +30,7 @@ We built this because currently, travel-related resources focus on logistics (cu
 This service will give the user a sense of what's going on in the country they visit, prior to and throughout a travel experience. It pulls standard news media headlines and dates from the Guardian API relative to a country (Most Viewed and Editor's Picks articles from the last 24hours), and the pulls twitter information from that countries' geolocation. 
 
 
-###What's with the name?
+####What's with the name?
 **Geo** =   
 
 ![Geo Definition](https://raw.githubusercontent.com/auremoser/geonewsies/master/assets/geo.png)  
