@@ -5,7 +5,8 @@ Geo-based News: whereever you go, whereever you are
 Aarhus 2014   
 [Media Hack Days](http://www.mediahackdays.com/)
 
-_________
+------
+
 ####Team Members
 
 
