@@ -43,6 +43,7 @@ p {
 #media {
 	margin: auto;	
 	background-color: #c0392b;
+	height: 130px;
 	border-bottom: 5px solid #D9D9D9;
 }
 
